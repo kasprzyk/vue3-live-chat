@@ -6,13 +6,13 @@ const routes = [
   {
     path: '/',
     name: 'Welcome',
-    component: Welcome,
-  },
+    component: Welcome
+  }
 ];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes,
+  routes
 });
 
 export default router;
